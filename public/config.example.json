@@ -1,0 +1,15 @@
+{
+  "apiUrl": "http://shop-back.dev04.skydigitallab.com/",
+  "imagesUrl": "http://localhost:5000/uploads/icons/",
+  "apiKey": "",
+  "appName": "Odin Admin Front",
+  "environment": "production",
+  "version": "1.0.0",
+  "ui": {
+    "language": "uk"
+  },
+  "api": {
+    "timeout": 30000,
+    "retries": 3
+  }
+}
