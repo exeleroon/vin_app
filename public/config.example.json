@@ -1,8 +1,7 @@
 {
-  "apiUrl": "http://shop-back.dev04.skydigitallab.com/",
-  "imagesUrl": "http://localhost:5000/uploads/icons/",
+  "apiUrl": "",
   "apiKey": "",
-  "appName": "Odin Admin Front",
+  "appName": "Vin App",
   "environment": "production",
   "version": "1.0.0",
   "ui": {
