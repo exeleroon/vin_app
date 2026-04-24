@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useNavigate, useParams} from 'react-router-dom';
+import DOMPurify from 'dompurify';
 import MainLayout from '../../layouts/MainLayout';
 import {useVariables} from '../../hooks/useVariables';
 import {IVehicleVariable} from '../../types';
@@ -58,7 +59,7 @@ const VariableDetail: React.FC = () => {
                             {variable.Description && (
                                 <>
                                     <dt>Опис</dt>
-                                    <dd>{variable.Description}</dd>
+                                    <dd dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(variable.Description)}}/>
                                 </>
                             )}
                         </dl>
