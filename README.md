@@ -2,7 +2,7 @@
 
 Вебзастосунок для розшифровки автомобільних VIN-кодів через відкритий API агенції NHTSA.
 
-🔗 **[Демо](https://your-deploy-url.vercel.app)** ← замініть після деплою
+🔗 **[Демо](https://vin-app.netlify.app/)** ← замініть після деплою
 
 ## Getting Started
 
